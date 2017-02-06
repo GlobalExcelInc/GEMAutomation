@@ -1,0 +1,54 @@
+{
+   
+      "mappings": {
+         "opsmgrapmevent": {
+          "properties": {
+            "eventtime": {
+              "type": "date",
+              "format": "basic_date_time",
+              "null_value": "19500101T000000.000Z"
+            },
+            "eventduration": {
+              "type": "float"
+            },
+            "applicationtype": {
+              "type": "keyword"
+            },
+            "applicationname": {
+              "type": "keyword"
+            },
+            "eventtype": {
+              "type": "keyword"
+            },
+            "sourcename": {
+              "type": "text"
+            },
+            "message": {
+              "type": "text"
+            },
+            "aspect": {
+              "type": "keyword"
+            },
+            "category": {
+              "type": "keyword"
+            },
+            "computername": {
+              "type": "keyword"
+            },
+            "username": {
+              "type": "keyword"
+            },
+            "resourcename": {
+              "type": "keyword"
+            },
+            "eventgroupdescription": {
+              "type": "text"
+            },
+            "rootfunction": {
+              "type": "keyword"
+            }
+          }
+         }
+      }
+   
+}

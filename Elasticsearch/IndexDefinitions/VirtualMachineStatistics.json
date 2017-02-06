@@ -1,0 +1,27 @@
+{
+   
+      "mappings": {
+         "virtualmachinestatistics": {
+            "properties": {
+               "clustername": {
+                  "type": "string"
+               },
+              "hostname": {
+                "type": "string"
+              } ,
+              "vmname": {
+                "type": "string"
+              },
+               "sampletime": {
+                "type": "date",
+                "format": "basic_date_time"
+               },
+              "averageprocessorusage": {
+                "type": "byte"
+              }
+
+            }
+         }
+      }
+   
+}

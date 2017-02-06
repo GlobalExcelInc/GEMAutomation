@@ -1,0 +1,42 @@
+{
+   
+      "mappings": {
+         "ulslogentry": {
+            "properties": {
+              "computername": {
+                "type": "keyword"
+              },
+              "process": {
+                "type": "keyword"
+              },
+              "area": {
+                "type": "keyword"
+              },
+              "category": {
+                "type": "keyword"
+              },
+              "eventid": {
+                "type": "keyword"
+              },
+              "level": {
+                  "type": "keyword"
+               },
+              "timestamp": {
+                "type": "date",
+                "format": "basic_date_time",
+                "null_value": "19500101T000000.000Z"
+              },
+              "message": {
+                  "type": "text"
+               },
+              "correlation": {
+                "type": "keyword"
+              },
+              "environment": {
+                  "type": "keyword"
+               }
+            }
+         }
+      }
+   
+}

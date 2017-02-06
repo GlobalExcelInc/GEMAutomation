@@ -1,0 +1,52 @@
+{
+      "mappings": {
+         "sqlsentryevent": {
+            "properties": {
+              "eventype": {
+                "type": "keyword"
+              },
+              "normalizedtextdata": {
+                "type": "keyword"
+              },
+              "database": {
+                "type": "keyword"
+              },
+              "clientcomputer": {
+                "type": "keyword"
+              },
+              "application": {
+                "type": "keyword"
+              },
+              "username": {
+                "type": "keyword"
+              },
+              "duration": {
+                "type": "integer"
+              },
+              "cpu": {
+                "type": "integer"
+              },
+              "read": {
+                "type": "integer"
+              },
+              "writes": {
+                "type": "integer"
+              },
+              "runstatus": {
+                "type": "integer"
+              },
+              "eventtime": {
+                "type": "date",
+                "format": "basic_date_time",
+                "null_value": "19500101T000000.000Z"
+              },
+              "querytype": {
+                "type": "keyword"
+              },
+              "servername": {
+                "type": "keyword"
+              }
+            }
+         }
+      }
+}

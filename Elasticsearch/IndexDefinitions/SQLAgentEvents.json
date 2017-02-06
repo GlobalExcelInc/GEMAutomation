@@ -1,0 +1,47 @@
+{
+   
+      "mappings": {
+         "sqlagentevent": {
+            "properties": {
+              "servername": {
+                "type": "keyword"
+              },
+              "jobname": {
+                "type": "keyword"
+              },
+              "stepid": {
+                "type": "keyword"
+              },
+              "stepname": {
+                "type": "keyword"
+              },
+              "runstatus": {
+                "type": "keyword"
+              },
+              "instanceid": {
+                "type": "integer"
+              },
+              "stepstarttime": {
+                "type": "date",
+                "format": "basic_date_time",
+                "null_value": "19500101T000000.000Z"
+              },
+               "stependtime": {
+                "type": "date",
+                "format": "basic_date_time",
+                "null_value": "19500101T000000.000Z"
+              },
+              "stepdurationinseconds": {
+                "type": "integer"
+              },
+              "message": {
+                "type": "text"
+              },
+              "retryattemps": {
+                "type": "integer"
+              }
+            }
+         }
+      }
+   
+}
